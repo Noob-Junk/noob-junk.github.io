@@ -21,7 +21,7 @@ const placeCharacter = () => {
       if (held_direction === directions.up) {y -= speed;}
       character.setAttribute("facing", held_direction);
    }
-   character.setAttribute("walking", held_direction ? "true" : "false");
+   character.setAttribute("walk", held_direction ? "true" : "false");
    
    //Limits (gives the illusion of walls)
    var leftLimit = -8;

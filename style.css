@@ -1,0 +1,110 @@
+/* Created by Junk */
+
+ body {
+            background: #000;
+            font-family: "Raleway";
+            margin: 0 0 0 0;
+
+        }
+
+        .title {
+            background: #222;
+            padding: 20px;
+            color: white;
+            transition: .3s;
+             position: fixed;
+            left:0;
+            right:0;
+            top:0;
+            z-index: 1;
+            
+        }
+
+        #text {
+            color: #34a853;
+
+        }
+
+        img {
+            width: 110px;
+            height: 100px;
+            
+            
+            -webkit-transition: .3s;
+                                    
+        }
+
+        p {
+            padding: 0px 10px 0px 10px;
+            color: white;
+        }
+
+        h2 {
+            color: white;
+            padding: 12px;
+        }
+
+        ul {
+            list-style: none;
+
+        }
+
+        li {
+            color: white;
+            padding-bottom: 5px;
+        }
+
+        progress {
+            margin-bottom: 8px;
+            color: #4285f4;
+            width: 75%;
+            border-radius: 10px;
+        }
+
+        .note {
+            color: white;
+            background: #4285f4;
+            padding: 10px;
+            font-family: "Montserrat";
+            bottom:0;
+             
+}
+
+        progress::-webkit-progress-bar {
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 5px;
+        }
+
+        progress::-webkit-progress-value {
+            background: linear-gradient(45deg, #005ddd, #33afff);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+            
+#head {
+    transition: .3s;
+}
+           .overlay {
+            background: #eee;
+            height:100vh;
+            z-index: 2;
+            position: absolute;
+            top: 0; 
+            width:100%;
+        }
+        .overlay h1 {
+            position: absolute;
+            top:50%;
+            left: 50%;
+             transform:  translate(-50%, -50%);
+            font-size: 22px;
+            font-weight: bolder;
+             letter-spacing: 8px;
+        }
+ 
